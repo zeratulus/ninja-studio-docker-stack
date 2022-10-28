@@ -1,4 +1,4 @@
-#Ninja Studio Docker Stack
+###Ninja Studio Docker Stack
 
 Docker compose example
 
@@ -15,11 +15,15 @@ PHP 8.1.11-fpm built in docker/Dockerfile and contains:
 
 First run:
 - docker compose up
+
 or:
+
 - docker-compose up
 
 Next usage:
+
  docker compose start\stop
+
 or...
 
 MariaDB Defaults:
@@ -28,9 +32,14 @@ admin
 Host: db
 
 Keywords:
-Docker Apache MySQL PHP
+
+Docker Apache MySQL PHP,
+
 Docker Apache MySQL phpfpm
+
 Docker Apache MariaDB PHP
+
 Docker Apache MariaDB phpfpm
+
 
 With best regards Serhii Herenko
