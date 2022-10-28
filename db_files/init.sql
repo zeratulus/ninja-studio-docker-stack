@@ -1,0 +1,10 @@
+CREATE USER IF NOT EXISTS root@localhost IDENTIFIED BY 'admin';
+SET PASSWORD FOR root@localhost = PASSWORD('admin');
+GRANT ALL ON *.* TO root@localhost WITH GRANT OPTION;
+CREATE USER IF NOT EXISTS root@'%' IDENTIFIED BY 'admin';
+SET PASSWORD FOR root@'%' = PASSWORD('admin');
+GRANT ALL ON *.* TO root@'%' WITH GRANT OPTION;
+CREATE USER IF NOT EXISTS dev@'%' IDENTIFIED BY 'pass';
+SET PASSWORD FOR dev@'%' = PASSWORD('pass');
+CREATE DATABASE IF NOT EXISTS ninja_ecommerce_solution;
+GRANT ALL ON nes.* TO dev@'%';

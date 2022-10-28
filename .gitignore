@@ -1,0 +1,19 @@
+#exclude dev directories
+.idea
+.git
+qodana
+db_files/mariadb
+dev
+
+#exclude upload\download and storage files
+storage/cache/
+storage/upload/
+storage/download/
+storage/session/
+storage/vendor/
+storage
+
+*.log
+dev.*
+node_modules
+vendor
