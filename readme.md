@@ -5,7 +5,7 @@ Docker compose example
 On board:
 - Apache
 - MariaDB
-- PHP 8.1.11-fpb with xDebug
+- PHP 8.1.11-fpm with xDebug
 
 PHP 8.1.11-fpm built in docker/Dockerfile and contains:
 - GD --with-freetype --with-jpeg --with-webp
