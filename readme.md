@@ -41,5 +41,6 @@ Docker Apache MariaDB PHP
 
 Docker Apache MariaDB phpfpm
 
+>>>> http://localhost
 
 With best regards Serhii Herenko
